@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Templates</title>
+</head>
+<body class="body">
+
+
+    <div class="gradient-top"></div>
+
+    <div class="header">
+        <div class="header-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique et aliquid sed</div>
+        <div class="tarif_block">
+            <div onclick="left_block_toggle(true)" class="left_tarif"></div>
+            <div class="center_tarif" onclick="center_block_toggle(true)"></div>
+            <div class="right_tarif" onclick="right_block_toggle(true)"></div>
+        </div>
+        <div class="rocket"></div>
+    </div>
+
+    <div class="header_left_block">
+        <button class="btn_back_block" onclick="left_block_toggle(false)"></button>
+    </div>
+
+    <div class="header_center_block">
+        <button class="btn_back_block" onclick="center_block_toggle(false)"></button>
+    </div>
+
+    <div class="header_right_block">
+        <button class="btn_back_block" onclick="right_block_toggle(false)">Back</button>
+    </div>
+
+</body>
+<script src="js/js.js"></script>
+</html>
